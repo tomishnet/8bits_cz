@@ -1,0 +1,59 @@
+/* reset styles*/
+#maincontent button,
+#maincontent [type="button"]{
+	font-family: inherit; /* for FF */
+}
+#maincontent button::-moz-focus-inner,
+#maincontent [type="button"]::-moz-focus-inner,
+#maincontent input::-moz-focus-inner {
+    border:0;
+    padding:0;
+}
+#maincontent{
+    display:none;
+}
+
+#maincontent *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+
+#maincontent .help p{
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    padding: 3px;
+    width: 100%;
+}
+
+input.error-val{
+   border: 2px solid #FF5050;
+}
+
+#settingstable{
+    width: auto;
+
+}
+
+#settingstable tr,
+#settingstable td{
+    border-bottom: 0px none transparent;
+    border-top: 0px none transparent;
+    vertical-align: middle;
+}
+
+#settingstable label{
+    text-align: right;
+    margin-right: 4px;
+}
+
+#settingstable #quality{
+    width: 50px;
+}
+
+#settingstable input[type="submit"]{
+    padding: 4px;
+}
